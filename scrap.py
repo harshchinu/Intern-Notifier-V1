@@ -74,7 +74,7 @@ if avaliable == True:
     conn.ehlo() # call this to start the connection
     conn.starttls() # starts tls encryption. When we send our password it will be encrypted.
     conn.ehlo()
-    conn.login('mharsh6896@gmail.com', 'unnati301')
+    conn.login('useremailid@gmail.com', 'yourpassword')
     conn.sendmail(sender,reciever,message.as_string())
     conn.quit()
     print('Sent notificaton e-mails for the following recipients:\n')
